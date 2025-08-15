@@ -59,7 +59,7 @@ You can build with **CMake (recommended)** or with a **one-liner** compiler comm
 
 ### Build with CMake (recommended)
 
-From inside the `FENWICH-TRACKER/` folder, create a build folder and change directory into it (it might prevent errors from occuring if you delete my build folder and create a new one):
+From inside the `FENWICH-TRACKER/` folder, create a build folder and change into it (if a build/ folder already exists, delete it first to avoid configuration conflicts):
 
 ```bash
 # Create a separate build directory
@@ -243,9 +243,10 @@ Till the next time!
 
 ---
 
-## References (other referrences are in the main.cpp file)
+## References (other references are in the app/main.cpp file)
 + ZyBooks CS-2270 modules on recursion and trees
 + "Competitive Programmer’s Handbook" (Laaksonen) – Fenwick Tree section
 + VisuAlgo.net – https://visualgo.net/en
 + GeeksForGeeks – https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
 + Investopedia – articles on volume analysis in trading
+
