@@ -35,7 +35,7 @@ Think of an array `A[1..N]` holding volumes. The Fenwick Tree keeps another arra
   * `range A B` → total volume in **\[A..B]**
 * After `add`/`prefix` it prints a small **“Local buckets \[i-2..i+2]”** window so you can see bucket-level values around the index you touched/queried.
 
-![screenshot of the program being launched](../Screenshots/program-launch-screenshot.png?raw=true)
+![Program launch — main menu](https://raw.githubusercontent.com/ignasv2/fenwick-tracker/main/Screenshots/program-launch-screenshot.png)
 
 -----------------------------------
 
@@ -93,7 +93,7 @@ When you run the program **from the `build/` directory**, the relative path `../
 
 -----------------------------------
 
-![Screenshot of CMake and running the program](../Screenshots/cmake-and-running-the-app.png?raw=true)
+![Screenshot of CMake and running the program](https://github.com/ignasv2/fenwick-tracker/blob/main/Screenshots/cmake-and-running-the-app.png)
 
 -----------------------------------
 
@@ -127,7 +127,7 @@ This means that if you try to access the price buckets before 520 you will just 
 * Choose **`2`**, then enter **`530`** → prints `prefix(530)` and a local buckets window.
 * Choose **`3`** and enter **`520 556`** → total volume in that range.
 
-![Screenshot of the demo in action](../Screenshots/demo-in-action.png?raw=true)
+![Screenshot of the demo in action](https://github.com/ignasv2/fenwick-tracker/blob/main/Screenshots/demo-in-action.png)
 
 ---
 
@@ -244,8 +244,8 @@ Till the next time!
 ---
 
 ## References (other referrences are in the main.cpp file)
-ZyBooks CS-2270 modules on recursion and trees
-"Competitive Programmer’s Handbook" (Laaksonen) – Fenwick Tree section
-VisuAlgo.net – https://visualgo.net/en
-GeeksForGeeks – https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
-Investopedia – articles on volume analysis in trading
++ ZyBooks CS-2270 modules on recursion and trees
++ "Competitive Programmer’s Handbook" (Laaksonen) – Fenwick Tree section
++ VisuAlgo.net – https://visualgo.net/en
++ GeeksForGeeks – https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/
++ Investopedia – articles on volume analysis in trading
