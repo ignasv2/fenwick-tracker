@@ -1,0 +1,3 @@
+C:/Users/ignas/projects/fenwick-tracker/build/CMakeFiles/run_app.dir
+C:/Users/ignas/projects/fenwick-tracker/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/ignas/projects/fenwick-tracker/build/CMakeFiles/ZERO_CHECK.dir

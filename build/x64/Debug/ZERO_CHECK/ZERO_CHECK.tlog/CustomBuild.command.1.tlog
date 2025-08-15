@@ -1,0 +1,10 @@
+^C:\USERS\IGNAS\PROJECTS\FENWICK-TRACKER\BUILD\CMAKEFILES\9996C01F315E7C656188ACCB1F87C6D7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ignas/projects/fenwick-tracker -BC:/Users/ignas/projects/fenwick-tracker/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ignas/projects/fenwick-tracker/build/fenwick-tracker.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ignas\projects\fenwick-tracker\build\CMakeFiles\9996c01f315e7c656188accb1f87c6d7\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8C7F91DB-897F-32B6-BAB6-6CD1E6C95C14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\IGNAS\PROJECTS\FENWICK-TRACKER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ignas/projects/fenwick-tracker -BC:/Users/ignas/projects/fenwick-tracker/build --check-stamp-file C:/Users/ignas/projects/fenwick-tracker/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
